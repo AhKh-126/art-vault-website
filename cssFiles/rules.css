@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    margin-left: 1em;
+}
+    
+a {
+    color: #aa61cc;
+    text-decoration: none;
+}
+
+/* */
+body .toc a:hover {
+    text-decoration: underline;
+}
+
+/*
+Basic Parameters
+Model Version Parameters
+Upscaler Parameters
+Other Parameters
+*/
+body .subtitle {
+    font-size: 13px;
+}
+    
+/* Layout Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+    
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+    
+th {
+    background-color: #f2f2f2;
+}
+    
+td:nth-child(1) {
+    color: #aa61cc;
+}
+    
+td:nth-child(2) {
+    color: black;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+    
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+    
+li {
+    color: rgb(2, 2, 2);
+}
+    
+    /* Page Styles */
+#intro {
+    margin-top: 100px;
+}
+    
+#cheat {
+    margin-top: 100px;
+}
+    
+#conclusion {
+    margin-top: 100px;
+}
+    
+p {
+    margin-bottom: 20px;
+}
+    
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}

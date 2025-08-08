@@ -1,0 +1,130 @@
+:root {
+  --main-color: #d3ad7f;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.toppart {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: 15px solid rgb(255, 255, 255);
+}
+
+.text-box {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 4px;
+}
+.text-box h1 {
+  color: #ff4081;
+  -webkit-text-stroke: 2px black;
+  font-size: 60px;
+  animation: text-color-animation 2s linear infinite;
+}
+@keyframes text-color-animation {
+  0% {
+    color: #ff4081; /* Change this to the starting color */
+  }
+  50% {
+    color: rgb(27, 147, 245); /* Change this to the ending color */
+  }
+  100% {
+    color: #ff4081; /* Change this to the starting color to create a loop */
+  }
+}
+.text-box p {
+  margin: 10px 0px 40px;
+  color: rgb(255, 255, 255);
+  border: 2px solid #ff4081;
+  padding: 5px;
+  font-size: 16px;
+  -webkit-text-stroke: 0.1px black;
+  padding: 3px;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 3px solid#ff0000;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: rgb(22, 165, 165);
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 3px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
+.sectiontwo {
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.sectiontwo p {
+  font-size: 16px;
+}
+
+.art-container {
+  position: relative;
+  align-items: center;
+}
+.art-image {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.sectionthree {
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.sectionfour {
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  background-color: #d3cfcf;
+  border-radius: 10px;
+  padding: 15px;
+}
+.sectionfour p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.sectionfour img {
+  vertical-align: middle;
+  margin-left: 100px;
+}

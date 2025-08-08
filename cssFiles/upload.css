@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Text for table */
+body .table{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    border-spacing: 50px;
+}
+
+/* For upload and select file button */
+.table input[type="submit"], input[type="file"] {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#textbox{
+    background-color: white;
+    border: 1px solid black;
+}
